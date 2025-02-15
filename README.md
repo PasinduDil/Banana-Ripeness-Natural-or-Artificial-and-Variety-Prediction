@@ -19,3 +19,29 @@ This project is a deep learning-based image classification model that classifies
 
 ## 📁 **Dataset Structure**
 The dataset should be structured as follows:
+
+/Dataset/
+├── ambul_kesel_artificial/ # Images for this class
+├── ambul_kesel_natural/ # Images for this class
+├── Anamal_Natural/ # Images for this class
+├── Anamalu_Artificial/ # Images for this class
+
+Ensure each subfolder contains a **sufficient number of images** for effective training.
+
+---
+
+## 🚀 **Setup Instructions**
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/yourusername/banana-classification.git
+cd banana-classification
+
+2️⃣ Install Dependencies
+Install the required Python libraries:
+
+pip install tensorflow keras numpy matplotlib opencv-python
+
+📌 Future Improvements
+Fine-tuning VGG16 layers to improve classification accuracy.
+Collecting a larger dataset for better generalization.
+Deploying the model using a web app (Flask/Streamlit) for real-time classification.
